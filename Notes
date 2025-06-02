@@ -1,0 +1,45 @@
+CyberNotes/
+├── Certifications/
+│   └── certs.md
+├── Linux/
+│   ├── linux-commands.md
+## Basic Navigation 
+-pwd-shows current directory
+-ls list files 
+-cd . . go up one folder
+cd / go to root
+## File Management
+-mkdir Folder Create a new folder
+-touch file.txt create a new file
+│   └── file-permissions.md
+├── Networking/
+│   ├── ip-basics.md
+Ip-Internet protocol 
+example 123.233.23.2
+private Ip ranges 192.168
+10.10xxx
+## Important commands 
+ipconfig-Shows your Ip (Windows)
+Ip a (Linux)
+ping check connection 
+tracyert-Traces road to webiste or port
+│   └── ports-and-protocols.md
+├── PowerShell/
+│   ├── piping-basics.md
+## Piping
+Get-something | Do something > maybee filter it 
+## Security
+Get-LocalUser
+Get-NetIPAdress
+Get-NetFirewallProfile
+
+│   └── common-commands.md
+├── Scripts/
+│   ├── powershell-scan.ps1
+│   └── bash-ping.sh
+├── TryHackMe/
+│   ├── presecurity-summary.md
+│   └── badges-earned.md
+├── WebHacking/
+│   ├── http-basics.md
+│   └── xss-notes.md
